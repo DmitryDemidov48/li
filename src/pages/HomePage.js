@@ -1,6 +1,11 @@
 import Header from "../components/Header";
 import ShortenLinkForm from "../components/ShortenLinkForm";
 import styled from "styled-components";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import LoginPage from "./LoginPage";
+import RegistrationPage from "./RegistrationPage";
+import NotFoundPage from "./NotFoundPage";
+import React from "react";
 
 const HomeContainer = styled.div`
   max-width: 800px;
@@ -33,6 +38,7 @@ const HomePage = () => {
                 <HomeParagraph>Здесь вы можете создать короткую ссылку для любой длинной ссылки.</HomeParagraph>
                 <ShortenLinkForm />
             </HomeContainer>
+
         </>
     );
 };
