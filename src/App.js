@@ -7,9 +7,7 @@ import RegistrationPage from "./pages/RegistrationPage";
 
 function App() {
     return (
-        <div>
-            4444
-        </div>
+       <HomePage/>
        /* <Router>
             <Routes>
 
