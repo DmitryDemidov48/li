@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
+// Компоненты стилизации (styled-components)
 
 // Стилизованный компонент для формы входа
 const LoginFormContainer = styled.div`
@@ -36,12 +37,14 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
+// Компонент формы входа
 const LoginForm = () => {
-    // Состояния для хранения значений полей формы
+    // Состояния для хранения значений полей формы и результата аутентификации
     const [formData, setFormData] = useState({
         username: '',
         password: ''
     });
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
 
     // Обработчик изменения значений в полях формы
     const handleInputChange = (e) => {
@@ -50,17 +53,11 @@ const LoginForm = () => {
     };
 
     // Обработчик отправки формы
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        try {
-            // Вызов функции авторизации с данными из формы
-            const response = await login(formData);
-            console.log('Авторизация прошла успешно:', response);
-            // Очистка значений полей формы после успешной авторизации
-            setFormData({ username: '', password: '' });
-        } catch (error) {
-            console.error('Ошибка при авторизации:', error);
-        }
+        // Здесь вы можете добавить проверку данных формы и имитировать успешную аутентификацию
+        // Например, если данные пользователя верные:
+        setIsAuthenticated(true);
     };
 
     return (
@@ -85,6 +82,7 @@ const LoginForm = () => {
                 />
                 <Button type="submit">Войти</Button>
             </Form>
+            {isAuthenticated && <p>Вы успешно вошли!</p>}
         </LoginFormContainer>
     );
 };
