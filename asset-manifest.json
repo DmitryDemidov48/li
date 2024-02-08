@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/https/DmitryDemidov48.github.io/link-short/static/css/main.f855e6bc.css",
-    "main.js": "/https/DmitryDemidov48.github.io/link-short/static/js/main.7f5e3cfd.js",
-    "static/js/592.90d57b5a.chunk.js": "/https/DmitryDemidov48.github.io/link-short/static/js/592.90d57b5a.chunk.js",
-    "static/media/logo.svg": "/https/DmitryDemidov48.github.io/link-short/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/https/DmitryDemidov48.github.io/link-short/index.html",
-    "main.f855e6bc.css.map": "/https/DmitryDemidov48.github.io/link-short/static/css/main.f855e6bc.css.map",
-    "main.7f5e3cfd.js.map": "/https/DmitryDemidov48.github.io/link-short/static/js/main.7f5e3cfd.js.map",
-    "592.90d57b5a.chunk.js.map": "/https/DmitryDemidov48.github.io/link-short/static/js/592.90d57b5a.chunk.js.map"
+    "main.css": "/link-short/static/css/main.f855e6bc.css",
+    "main.js": "/link-short/static/js/main.ba5244aa.js",
+    "static/js/592.90d57b5a.chunk.js": "/link-short/static/js/592.90d57b5a.chunk.js",
+    "static/media/logo.svg": "/link-short/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/link-short/index.html",
+    "main.f855e6bc.css.map": "/link-short/static/css/main.f855e6bc.css.map",
+    "main.ba5244aa.js.map": "/link-short/static/js/main.ba5244aa.js.map",
+    "592.90d57b5a.chunk.js.map": "/link-short/static/js/592.90d57b5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.7f5e3cfd.js"
+    "static/js/main.ba5244aa.js"
   ]
 }
