@@ -9,6 +9,7 @@ function App() {
     return (
         <Router>
             <Routes>
+                <h1>44444</h1>
                 <Route exact path="/" element={<HomePage/>} />
               {/*  <Route path="/login" element={<LoginPage/>} />
                 <Route path="/register" element={<RegistrationPage/>} />
