@@ -7,15 +7,18 @@ import RegistrationPage from "./pages/RegistrationPage";
 
 function App() {
     return (
-        <Router>
+        <div>
+            4444
+        </div>
+       /* <Router>
             <Routes>
-                <h1>44444</h1>
+
                 <Route exact path="/" element={<HomePage/>} />
-              {/*  <Route path="/login" element={<LoginPage/>} />
+              {/!*  <Route path="/login" element={<LoginPage/>} />
                 <Route path="/register" element={<RegistrationPage/>} />
-                <Route element={<NotFoundPage/>} />*/}
+                <Route element={<NotFoundPage/>} />*!/}
             </Routes>
-        </Router>
+        </Router>*/
     );
 }
 
